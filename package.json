@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name yuno",
-    "stop": "pm2 stop wabot",
-    "restart": "pm2 restart wabot"
+    "stop": "pm2 stop yuno",
+    "restart": "pm2 restart yuno"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
